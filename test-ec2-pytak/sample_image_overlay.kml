@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Detection Image Overlay</name>
+    <description>Image overlay for detection results</description>
+    
+    <GroundOverlay>
+      <name>Detection Result</name>
+      <description>AI detection overlay</description>
+      <Icon>
+        <href>https://pngimg.com/uploads/moose/moose_PNG60.png</href>
+      </Icon>
+      <LatLonBox>
+        <north>37.7759</north>
+        <south>37.7739</south>
+        <east>-123.4174</east>
+        <west>-123.4194</west>
+        <rotation>0</rotation>
+      </LatLonBox>
+    </GroundOverlay>
+    
+    <Placemark>
+      <name>Detection Point</name>
+      <description>Detection center point</description>
+      <Point>
+        <coordinates>-123.4184,37.7749,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Detection Area</name>
+      <description>Detection boundary polygon</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -123.4194,37.7749,0
+              -123.4184,37.7759,0
+              -123.4174,37.7739,0
+              -123.4184,37.7729,0
+              -123.4194,37.7749,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    
+  </Document>
+</kml>

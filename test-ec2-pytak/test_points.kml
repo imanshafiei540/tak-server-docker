@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Test Points</name>
+    <description>Simple test points for TAK</description>
+    
+    <Placemark>
+      <name>Enemy Position</name>
+      <description>Hostile forces detected here</description>
+      <Point>
+        <coordinates>-122.4194,37.7749,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Friendly Base</name>
+      <description>Our command post</description>
+      <Point>
+        <coordinates>-122.4094,37.7849,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Checkpoint Alpha</name>
+      <description>Security checkpoint</description>
+      <Point>
+        <coordinates>-122.3994,37.7949,0</coordinates>
+      </Point>
+    </Placemark>
+    
+  </Document>
+</kml>

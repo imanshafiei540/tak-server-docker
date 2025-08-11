@@ -7,3 +7,16 @@ originalWAR/
 chatbot/
 server.pref
 manifest.xml
+.venv/
+*.pem
+*.p12
+*.key
+*.crt
+*.csr
+*.pem
+*.p12
+*.key
+*.crt
+*.csr
+*.jks
+.DS_Store

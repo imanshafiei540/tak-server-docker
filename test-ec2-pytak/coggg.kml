@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>VENUS Detection 2024-03-19</name>
+    <description>COG detection via TiTiler</description>
+    
+    <GroundOverlay>
+      <name>VENUS COG TIF</name>
+      <Icon>
+        <href>https://titiler.xyz/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=https://s3.amazonaws.com/venus-l2a-cogs/ALTAMAH/2024/03/19/VENUS-XS_20240319-153935-000_L2A_ALTAMAH_D/VENUS-XS_20240319-153935-000_L2A_ALTAMAH_C_V3-1_FRE_B1.tif</href>
+      </Icon>
+      <LatLonBox>
+        <north>31.228</north>
+        <south>31.209</south>
+        <east>-82.132</east>
+        <west>-82.154</west>
+        <rotation>0</rotation>
+      </LatLonBox>
+    </GroundOverlay>
+    
+  </Document>
+</kml>

@@ -1,0 +1,13 @@
+# TAK Server EC2 Examples - Requirements
+# Install with: pip install -r requirements.txt
+
+# For PyTAK comprehensive example
+pytak>=6.2.0
+
+# For REST API example
+requests>=2.25.0
+urllib3>=1.26.0
+
+# Optional: For enhanced features
+# lxml>=4.6.0  # XML processing
+# cryptography>=3.0.0  # Certificate handling
